@@ -1,9 +1,9 @@
-# PrivacyLens 🛡️
+# PrivacyLens 
 > AI-Powered Privacy Policy Analyzer & Leaderboard
 
 PrivacyLens is a Chrome Extension and Web Platform that analyzes complex privacy policies on-the-fly using a hybrid **Deterministic NLP + Structured LLM** pipeline.
 
-## 🚀 Repository Structure
+##  Repository Structure
 
 ```
 PrivacyLens/
@@ -33,7 +33,7 @@ extension/
 └── PrivacyLens_2Week_Project_Plan.docx  # Project Roadmap
 ```
 
-## 🛠️ Backend Setup
+##  Backend Setup
 
 1. **Install Dependencies**:
    ```bash
@@ -79,7 +79,7 @@ extension/
 3. Click **Analyze This Page**. The extension executes the client-side deterministic rule engine (using the exact vague phrase list from `vague_terms.py`) and renders the full UI without needing any local server.
 
 
-## 🤝 Team Integration
+##  Team Integration
 
 - **Extension**: Send policy text via `POST /analyze` with body: `{"domain": "example.com", "policy_text": "..."}`.
 - **Web/DB**: Extend `main.py` with MongoDB connections to cache domain scores.
